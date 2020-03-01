@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="73cc275e-98a6-4ebd-a15c-22a7ba36a428" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1YXEUOAXM1lViayx0Z6cbKTYIVA" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.test.messaging" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\user\Desktop\work\demo\back-service\src\main\java\com\test" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.Application">
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="rest" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.test.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="back-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.test.ServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="73cc275e-98a6-4ebd-a15c-22a7ba36a428" name="Default Changelist" comment="" />
+      <created>1583080553501</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583080553501</updated>
+      <workItem from="1583080559844" duration="9438000" />
+      <workItem from="1583091490773" duration="856000" />
+      <workItem from="1583092493965" duration="1521000" />
+      <workItem from="1583094027873" duration="514000" />
+      <workItem from="1583094551469" duration="935000" />
+      <workItem from="1583096011602" duration="78000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="765" y="213" key="#com.intellij.ide.util.MemberChooser" timestamp="1583092857644">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="765" y="213" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1583092857644" />
+    <state x="784" y="449" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1583091176973">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="784" y="449" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583091176973" />
+    <state width="402" height="466" key="DebuggerActiveHint" timestamp="1583094682741">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="402" height="466" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1583094682741" />
+    <state x="740" y="278" key="FileChooserDialogImpl" timestamp="1583083578320">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="278" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1583083578320" />
+    <state width="1293" height="274" key="GridCell.Tab.0.bottom" timestamp="1583096089305">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1293" height="274" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583096089305" />
+    <state width="1293" height="274" key="GridCell.Tab.0.center" timestamp="1583096089304">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1293" height="274" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583096089304" />
+    <state width="1293" height="274" key="GridCell.Tab.0.left" timestamp="1583096089304">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1293" height="274" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583096089304" />
+    <state width="1293" height="274" key="GridCell.Tab.0.right" timestamp="1583096089304">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1293" height="274" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583096089304" />
+    <state width="1293" height="274" key="GridCell.Tab.1.bottom" timestamp="1583096089305">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1293" height="274" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583096089305" />
+    <state width="1293" height="274" key="GridCell.Tab.1.center" timestamp="1583096089305">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1293" height="274" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583096089305" />
+    <state width="1293" height="274" key="GridCell.Tab.1.left" timestamp="1583096089305">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1293" height="274" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583096089305" />
+    <state width="1293" height="274" key="GridCell.Tab.1.right" timestamp="1583096089305">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1293" height="274" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583096089305" />
+    <state width="1877" height="338" key="GridCell.Tab.2.bottom" timestamp="1583095487318">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="338" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583095487318" />
+    <state width="1877" height="338" key="GridCell.Tab.2.center" timestamp="1583095487318">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="338" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583095487318" />
+    <state width="1877" height="338" key="GridCell.Tab.2.left" timestamp="1583095487318">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="338" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583095487318" />
+    <state width="1877" height="338" key="GridCell.Tab.2.right" timestamp="1583095487318">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="338" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583095487318" />
+    <state x="731" y="252" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1583084910712">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="731" y="252" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583084910712" />
+    <state x="524" y="259" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1583094963381">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="524" y="259" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1920.1040@0.0.1920.1040" timestamp="1583094963381" />
+    <state x="342" y="228" key="new project wizard" timestamp="1583085286074">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="342" y="228" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1583085286074" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/rest/src/main/java/com/test/controller/SimpRestController.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/rest/src/main/java/com/test/controller/SimpRestController.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/rest/src/main/java/com/test/controller/SimpRestController.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/back-service/src/main/java/com/test/messaging/MessageHandler.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/back-service/src/main/java/com/test/messaging/MessageHandler.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/rest/src/main/java/com/test/messaging/MessageHandler.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
