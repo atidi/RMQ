@@ -1,4 +1,4 @@
-package com.test.exception;
+package com.ihost.exception;
 
 public class RandomIntObjectNotFoundException extends RuntimeException {
 

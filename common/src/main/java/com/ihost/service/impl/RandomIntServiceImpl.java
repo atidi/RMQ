@@ -1,8 +1,8 @@
-package com.test.service.impl;
-import com.test.exception.RandomIntObjectNotFoundException;
-import com.test.service.RandomIntService;
-import com.test.model.RandomIntObject;
-import com.test.repository.RandomIntRepository;
+package com.ihost.service.impl;
+import com.ihost.exception.RandomIntObjectNotFoundException;
+import com.ihost.service.RandomIntService;
+import com.ihost.model.RandomIntObject;
+import com.ihost.repository.RandomIntRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

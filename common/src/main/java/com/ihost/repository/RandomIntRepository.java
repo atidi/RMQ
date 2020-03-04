@@ -1,6 +1,6 @@
-package com.test.repository;
+package com.ihost.repository;
 
-import com.test.model.RandomIntObject;
+import com.ihost.model.RandomIntObject;
 import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.stereotype.Repository;
 

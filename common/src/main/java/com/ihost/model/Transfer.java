@@ -1,4 +1,4 @@
-package com.test.model;
+package com.ihost.model;
 
 import java.io.Serializable;
 

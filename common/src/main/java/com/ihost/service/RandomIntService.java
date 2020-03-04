@@ -1,6 +1,6 @@
-package com.test.service;
+package com.ihost.service;
 
-import com.test.model.RandomIntObject;
+import com.ihost.model.RandomIntObject;
 
 public interface RandomIntService {
 

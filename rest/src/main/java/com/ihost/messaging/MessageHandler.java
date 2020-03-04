@@ -1,13 +1,13 @@
-package com.test.messaging;
+package com.ihost.messaging;
 
-import com.test.model.RandomIntObject;
+import com.ihost.model.RandomIntObject;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.amqp.rabbit.annotation.RabbitListener;
 import org.springframework.messaging.handler.annotation.Payload;
 import org.springframework.stereotype.Component;
 
-import static com.test.messaging.Queues.QUEUE_REST_SERVICE;
+import static com.ihost.messaging.Queues.QUEUE_REST_SERVICE;
 
 @Component
 public class MessageHandler {

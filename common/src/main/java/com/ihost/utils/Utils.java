@@ -1,4 +1,4 @@
-package com.test.utils;
+package com.ihost.utils;
 
 import java.util.List;
 import java.util.Random;

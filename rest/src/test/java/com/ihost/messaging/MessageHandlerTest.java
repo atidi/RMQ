@@ -1,19 +1,61 @@
-import org.jboss.arquillian.container.test.api.Deployment;
-import org.jboss.arquillian.junit.Arquillian;
-import org.jboss.shrinkwrap.api.ShrinkWrap;
-import org.jboss.shrinkwrap.api.asset.EmptyAsset;
-import org.jboss.shrinkwrap.api.spec.JavaArchive;
+package com.ihost.messaging;
+
+
+import ch.qos.logback.classic.Level;
+import ch.qos.logback.classic.Logger;
+import ch.qos.logback.classic.spi.ILoggingEvent;
+import ch.qos.logback.core.read.ListAppender;
+import com.ihost.Application;
+import com.ihost.model.RandomIntObject;
+import com.ihost.utils.Utils;
+import org.junit.Test;
 import org.junit.runner.RunWith;
+import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.test.context.junit4.SpringRunner;
 
-import static org.junit.Assert.*;
+import java.util.List;
 
-@RunWith(Arquillian.class)
+import static org.assertj.core.api.Assertions.assertThat;
+import static org.junit.Assert.assertEquals;
+
+@RunWith(SpringRunner.class)
+@SpringBootTest(classes = Application.class)
 public class MessageHandlerTest {
-    @Deployment
-    public static JavaArchive createDeployment() {
-        return ShrinkWrap.create(JavaArchive.class)
-                .addClass(com.ihost.messaging.MessageHandler.class)
-                .addAsManifestResource(EmptyAsset.INSTANCE, "beans.xml");
+
+
+    @Autowired
+    private MessageHandler handler;
+
+    @Test
+    public void onlyMessageHandlerIsLoaded(){
+        assertThat(handler).isNotNull();
     }
 
+    @Test
+    public void whenCorrectData_ThenLogMessage() {
+        Logger logger =(Logger) LoggerFactory.getLogger(MessageHandler.class);
+        ListAppender<ILoggingEvent> listAppender = new ListAppender<>();
+        listAppender.start();
+        logger.addAppender(listAppender);
+        List<Integer>  randomList = Utils.generateRandomInt();
+        RandomIntObject obj = new RandomIntObject(randomList);
+        handler.handleMessage(obj);
+
+        List<ILoggingEvent> logsList = listAppender.list;
+        for (int i = 0; i <randomList.size() ; i++) {
+            assertEquals("Random integer :" + randomList.get(i), logsList.get(i)
+                    .getMessage());
+            assertEquals(Level.INFO, logsList.get(i)
+                    .getLevel());
+        }
+    }
+
+    @Test(expected = NullPointerException.class)
+    public void whenNullRandomData_ThenThrowException() {
+        RandomIntObject obj = new RandomIntObject();
+        handler.handleMessage(obj);
+
+    }
 }

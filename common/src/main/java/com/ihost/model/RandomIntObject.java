@@ -1,10 +1,9 @@
-package com.test.model;
+package com.ihost.model;
 
-
-import org.springframework.data.annotation.Id;
 
 import java.io.Serializable;
 import java.util.List;
+import java.util.Objects;
 import java.util.UUID;
 
 
@@ -35,5 +34,19 @@ public class RandomIntObject implements Serializable {
 
     public void setRandomInt(List<Integer> randomInt) {
         this.randomInt = randomInt;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        RandomIntObject that = (RandomIntObject) o;
+        return id.equals(that.id) &&
+                Objects.equals(randomInt, that.randomInt);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(id, randomInt);
     }
 }

@@ -1,19 +1,39 @@
-import org.jboss.arquillian.container.test.api.Deployment;
-import org.jboss.arquillian.junit.Arquillian;
-import org.jboss.shrinkwrap.api.ShrinkWrap;
-import org.jboss.shrinkwrap.api.asset.EmptyAsset;
-import org.jboss.shrinkwrap.api.spec.JavaArchive;
+package com.ihost.messaging;
+
+
+import org.junit.Test;
 import org.junit.runner.RunWith;
+import org.springframework.amqp.rabbit.core.RabbitTemplate;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.boot.test.mock.mockito.MockBean;
+import org.springframework.test.context.junit4.SpringRunner;
 
-import static org.junit.Assert.*;
+import static org.assertj.core.api.Assertions.assertThat;
+import static org.mockito.Mockito.*;
 
-@RunWith(Arquillian.class)
+@RunWith(SpringRunner.class)
+@SpringBootTest
 public class MessageSenderTest {
-    @Deployment
-    public static JavaArchive createDeployment() {
-        return ShrinkWrap.create(JavaArchive.class)
-                .addClass(com.ihost.messaging.MessageSender.class)
-                .addAsManifestResource(EmptyAsset.INSTANCE, "beans.xml");
+
+    @Autowired
+    private MessageSender sender;
+
+    @MockBean
+    private RabbitTemplate rabbitTemplate;
+
+    @Test
+    public void onlyMessageSenderIsLoaded(){
+        assertThat(sender).isNotNull();
+    }
+
+    @Test
+    public void whenSendMessage_thenDoNothing() {
+        doNothing()
+                .when(rabbitTemplate)
+                .convertAndSend(eq("test"),any(Object.class));
+        sender.sendMessage("test",new Object());
+        verify(rabbitTemplate, times(1)).convertAndSend(eq("test"),any(Object.class));
     }
 
 }
